@@ -1,0 +1,1814 @@
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('/fonts/quicksand-bold-webfont.eot');
+    src: url('/fonts/quicksand-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/quicksand-bold-webfont.woff') format('woff'),
+         url('/fonts/quicksand-bold-webfont.ttf') format('truetype'),
+         url('/fonts/quicksand-bold-webfont.svg#quicksandbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksanditalic';
+    src: url('/fonts/quicksand-italic-webfont.eot');
+    src: url('/fonts/quicksand-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/quicksand-italic-webfont.woff') format('woff'),
+         url('/fonts/quicksand-italic-webfont.ttf') format('truetype'),
+         url('/fonts/quicksand-italic-webfont.svg#quicksanditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandlight';
+    src: url('/fonts/quicksand-light-webfont.eot');
+    src: url('/fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/quicksand-light-webfont.woff') format('woff'),
+         url('/fonts/quicksand-light-webfont.ttf') format('truetype'),
+         url('/fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('/fonts/quicksand-regular-webfont.eot');
+    src: url('/fonts/quicksand-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/quicksand-regular-webfont.woff') format('woff'),
+         url('/fonts/quicksand-regular-webfont.ttf') format('truetype'),
+         url('/fonts/quicksand-regular-webfont.svg#quicksandregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	margin: 0;
+	font: .8em/1.75 'quicksandregular', sans-serif;
+}
+#container {
+		max-width: 960px;
+		margin: 0 auto;
+	}	
+h1 {
+	color: white;
+}
+nav a {
+	text-decoration: none;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 0 0 0 5%;
+}
+footer nav {
+	margin: 0 auto;
+	width: 30%;
+	font: .7em/1.5 'quicksandbold',sans-serif;
+}
+footer p {
+	text-align: center;
+	font: .7em/1.5 'quicksandbold',sans-serif;
+}
+a {
+	text-decoration: none;
+	
+}
+#congressman a {
+	color: white;
+}
+.single-bills a {
+	color: white;
+}
+h1 {
+	font: normal 2em/1.5 'superclarendon',serif;
+	font-weight: 300;
+}
+h2 {
+	font: normal 1.75em/1.5 'quicksandregular', sans-serif;
+	color: white;
+}
+
+h3 {
+	font: normal 1.5em/1.5 'quicksandregular', sans-serif;
+	color: white;
+}
+
+h4 {
+	font: normal 1.25em/1.5 'quicksandregular', sans-serif;
+	color: white;
+}
+#bills1 h2, #bills2 h2, #bills3 h2, #bills4 h2, #bills5 h2, #bills6 h2, #bills7 h2, #bills8 h2 {
+	color: white;
+}
+header {
+	margin-bottom: 0;
+	padding: 0 0 0 0;
+}
+header img {
+	width: 100%;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+}
+#congressman h2, #congressman h3 {
+		color: white;
+}
+#revealmore a:link, #revealmore:visited {
+	color: white;
+}
+#revealmore a:hover, #revealmore:active {
+	color: #dddddd;
+}
+nav a:link, nav a:visited {
+	font: 'quicksandregular', sans-serif;
+	color: #006db7;
+}
+nav a:hover, nav a:active {
+	font: 'quicksandbold', sans-serif;
+	color: #dddddd;
+}
+footer a:link, footer a:visited {
+	font: 'quicksandbold', sans-serif;
+	color: #006db7;
+}
+footer a:hover, footer a:active {
+	font: 'quicksandbold', sans-serif;
+	color: #dddddd;
+}
+.single-story a:link, .single-story a:visited {
+	color: white;
+}
+.single-story a:hover, .single-story a:active {
+	color: #006db7;
+}
+.single-bills a:link, .single-bills a:visited {
+	color: white;
+}
+.single-bills a:hover, .single-bills a:active {
+	color: #dddddd;
+}
+#congressman a:link, #congressman a:visited { 
+	color: white;
+}
+#congressman a:hover, #congressman a:active { 
+	color: #dddddd;
+}
+#congressman1 a:link, #congressman1 a:visited { 
+	color: white;
+}
+#congressman1 a:hover, #congressman1 a:active { 
+	color: #dddddd;
+}
+#congressman2 a:link, #congressman2 a:visited { 
+	color: white;
+}
+#congressman2 a:hover, #congressman2 a:active {
+	color: #dddddd;
+}
+#congressman3 a:link, #congressman3 a:visited { 
+	color: white;
+}
+#congressman3 a:hover, #congressman3 a:active {
+	color: #dddddd;
+}
+#congressman1 h2, #congressman2 h2, #congressman3 h2 {
+	color: white;
+}
+#bills h2, #bills h3 {
+	color: white;
+}
+#news h1 {
+	color: black;
+}
+#app h1 {
+	color: white;
+}
+#all-bills a:link, #all-bills a:visited {
+	color: white;
+}
+#all-bills a:hover, #all-bills a:active {
+	color: #dddddd;
+}
+#bills1 a:link, #bills1 a:visited {
+	color: white;
+}
+#bills1 a:hover, #bills1 a:active {
+	color: #dddddd;
+}
+
+.bills {
+	background-color: rgb(208, 211, 212);
+}
+
+#allcongress {
+	background: rgb(208, 211, 212);
+	padding: 0 0 5% 0;
+	
+}
+
+.clear {
+	padding: 0;
+	margin: 0;
+}
+
+
+
+@media only screen and (max-width: 320px){
+	
+	h1 {
+	font: normal 1em/1.5 'superclarendon',serif;
+	font-weight: 300;
+}
+	h2 {
+	font: normal .75em/1.5 'quicksandregular', sans-serif;
+}
+	h3 {
+	font: normal .5em/1.5 'quicksandregular', sans-serif;
+}
+
+	h4 {
+	font: normal .4em/1.5 'quicksandregular', sans-serif;
+	color: white;
+}
+	
+	
+	.bills {
+	background-color: rgb(208, 211, 212);
+}
+	#topnav {
+		width: 100%;
+		padding: 1% 0 0 0;
+	}
+	#topnav img {
+		float: right;
+		width: 6%;
+		padding: 1% 3% 0 0;
+	}
+	#topnav p {
+		width: 50%;
+		padding: 0 0 0 5%;
+		margin: 0;
+		display: inline;
+		font: normal 1em/1.5 'superclarendon',serif;
+	}
+	#congressman {
+		background: rgb(0, 109, 183) url(../images/new/nelson-info.png) no-repeat left+25% bottom+35%/90%;
+	}
+	
+	#congressman img {
+		float: left;
+		padding: 3%;
+		width: 40%;
+	}
+	
+	#congressman h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman h2 {
+		padding: 1% 0 5% 0;
+	}
+	#congressman h4 {
+		padding: 80% 2% 0 3%;
+		color: white;
+	}
+
+	#congressman p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 43%;
+		text-align: center;
+		clear: both;
+		margin: 5% 10% 10% 0;
+		float: right;
+		
+	}
+	.clear {
+		clear: both;
+}
+	#bills {
+		clear: both;
+		background-color:rgb(65, 64, 66);
+	}
+	#bills h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+		
+	}
+	#bills h2 {
+		padding: 0 0 0 5%;
+		margin: 0;
+	}
+	#bills h3 {
+		width: 90%;
+		padding: 0 5% 0 5%;
+		
+	}
+	.single-bills h4 {
+		clear: both;
+		padding: 0 0 0 5%;
+		color: rgb(208, 211, 212);
+	}
+	.single-bills p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 45%;
+		text-align: center;
+		clear: both;
+		margin: 0 10% 20% 0;
+		float: right;
+	}
+
+	#bills img {
+		width: 30%;
+		padding: 0 3% 0 2%;
+		margin: 10% 0 5% 0;
+	}
+	
+	.single-bills {
+		padding: 5% 0 0 2%;
+	}
+	#news {
+		clear: both;
+		background-color: rgb(208, 211, 212);
+	}
+	#news h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;	
+	}
+	#news h3 {
+		text-align: center;
+	}
+	.single-story {
+		width: 60%;
+		padding: 0 3% 0 3%;
+		margin: 0 auto;
+	}
+	.single-story:last-of-type {
+		width: 60%;
+		float: left;
+		padding: 0 3% 5% 3%;
+		border-right: none;
+	}
+	.single-story h2 {
+		text-align: center;
+	
+	}
+	.single-story h4 {
+		text-align: center;
+	
+	}
+	.single-story img {
+		width: 27%;
+		margin: 0 auto;
+		padding: 0 0 0 40%;
+		
+	}
+	.single-story p {
+		text-align: center;
+	}
+	#app {
+		background-color: white;	
+	}
+	#app h1 {
+		padding: 10% 0 0 0;
+		color: black;
+		border-bottom: 1pt solid black;
+	}
+	#app img {
+		padding: 10% 0 0 5%;
+		width: 90%;
+	}
+	#app img:last-of-type {
+		float: left;
+		padding: 0 10% 0 25%;
+		width: 60%;
+	}
+	#app p {
+		width: 70%;
+		padding: 5% 0 0 15%;
+		color: black;	
+	}
+	#all-bills {
+		background-color: rgb(208, 211, 212);
+	}
+	#all-bills h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#bills1 {
+		width: 100%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills1 h2 {
+		text-align: center;
+		font-size: 1em;
+	}
+	#bills1 img {
+		padding: 0 0 3% 25%;
+		width: 50%;
+	}
+	#bills2 {
+		width: 100%;
+		float: left;
+		margin: 0 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills2 h2 {
+		text-align: center;
+		font-size: 1em;
+	}
+	#bills2 img {
+		padding: 4% 0 3% 30%;
+		width: 50%;
+	}
+	#bills3 {
+		width: 100%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills3 h2 {
+		text-align: center;
+		font-size: 1em;
+		
+	}
+	#bills3 img {
+		padding: 0 0 3% 25%;
+		width: 40%;
+	}
+	#bills4 {
+		width: 100%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills4 h2 {
+		text-align: center;
+		font-size: 1em;
+	}
+	#bills4 img {
+		padding: 0 0 1% 30%;
+		width: 40%;
+	}
+	#bills5 {
+		width: 100%;
+		float: left;
+		clear: both;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills5 h2 {
+		text-align: center;
+		font-size: 1em;
+	}
+	#bills5 img {
+		padding: 0 0 1% 30%;
+		width: 40%;
+	}
+	#bills6 {
+		width: 100%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills6 h2 {
+		text-align: center;
+		font-size: 1em;
+	}
+	#bills6 img {
+		padding: 0 0 1% 20%;
+		width: 60%;
+	}
+	#bills7 {
+		width: 100%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills7 h2 {
+		text-align: center;
+		font-size: 1em;
+	}
+	#bills7 img {
+		padding: 0 0 1% 25%;
+		width: 50%;
+	}
+	#bills8 {
+		width: 100%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills8 h2 {
+		text-align: center;
+		color: white;
+		font-size: 1em;
+	}
+	#bills8 img {
+		padding: 0 0 1% 25%;
+		width: 50%;
+	}
+	form {
+		width: 94%;
+		margin: 0;
+		padding: 4% 3% 5% 3%;
+		float: left;
+		background-color: #dddddd;	
+	}
+	
+	#keyword {
+		padding: 2% 10% 2% 2%;
+		width: 50%;
+	}
+	form:last-of-type {
+		width: 94%;
+		margin: 0;
+		padding: 4% 3% 1% 3%;
+		float: left;
+	}
+	#email, #password {
+		padding: 2% 10% 2% 2%;
+		width: 50%;
+	}
+	input[type="submit"] {
+		padding: 2% 5%;
+	}
+	#small-app {
+		width: 100%;
+		background: rgb(0, 109, 183) url(../images/congress-app-screen.png) no-repeat bottom left+100%/80%;	
+		float: right;
+	}
+	#small-app h2 {
+		margin: 0 0 0 5%;
+		padding: 5% 0 0 0%;
+		border-bottom: 1pt solid white;	
+		color: white;
+	}
+	#small-app img:first-of-type {
+		float: left;
+		padding: 5% 0 0 5%;
+		width: 90%;
+		clear: both;
+	}
+	#small-app img:last-of-type {
+		float: right;
+		padding: 0 20% 70% 3%;
+		width: 70%;
+	}
+	#small-app p {
+		float: left;
+		width: 85%;
+		padding: 10% 0 0 5%;
+		color: white;	
+	}
+	#small-app2 {
+		width: 100%;
+		background: rgb(0, 109, 183) url(../images/bill-app-screen.png) no-repeat bottom left+100%/80%;	
+		float: right;
+	}
+	#small-app2 h2 {
+		margin: 0 0 0 5%;
+		padding: 5% 0 0 0%;
+		border-bottom: 1pt solid white;	
+		color: white;
+	}
+	#small-app2 img:first-of-type {
+		float: left;
+		padding: 5% 0 0 5%;
+		width: 90%;
+		clear: both;
+	}
+	#small-app2 img:last-of-type {
+		float: right;
+		padding: 0 20% 70% 3%;
+		width: 70%;
+	}
+	#small-app2 p {
+		float: left;
+		width: 85%;
+		padding: 10% 0 0 5%;
+		color: white;	
+	}
+	#congressman1 {
+		background: rgb(0, 109, 183) url(../images/new/nelson-info.png) no-repeat left +25% bottom+30%/90%;
+
+		
+		padding: 0 0 5% 0;
+		
+	}
+	
+	#congressman1 img {
+		float: left;
+		padding: 3%;
+		width: 40%;
+	}
+	
+	#congressman1 h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman1 h2 {
+		clear: left;
+		padding: 1% 0 0 3%;
+	}
+	#congressman1 h3 {
+		clear: left;
+		padding: 1% 0 0 3%;
+	}
+	#congressman1 h4 {
+		padding: 70% 2% 0 3%;
+		color: white;
+	}
+
+	#congressman1 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 43%;
+		text-align: center;
+		clear: both;
+		margin: 5% 10% 0 0;
+		float: right;
+	}
+	#congressman2 {
+		background: rgb(204, 6, 0) url(../images/new/isakson-info.png) no-repeat right+20% bottom+30%/80%;
+		padding: 0 0 5% 0;
+		
+	}
+	
+	#congressman2 img {
+		float: left;
+		padding: 3%;
+		width: 40%;
+	}
+	
+	#congressman2 h1 {
+		margin: 0 3% 0 3%;
+		padding: 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman2 h2 {
+		clear: left;
+		padding: 1% 0 0 3%;
+	}
+	#congressman2 h3 {
+		clear: left;
+		padding: 1% 0 0 3%;
+	}
+	#congressman2 h4 {
+		padding: 70% 2% 0 3%;
+		color: white;
+	}
+
+	#congressman2 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 43%;
+		text-align: center;
+		clear: both;
+		margin: 5% 10% 0 0;
+		float: right;
+	}
+	#congressman3 {
+		background: rgb(65, 64, 66) url(../images/new/king-info.png) no-repeat left+40% bottom+30%/60%;
+		padding: 0 0 5% 0;
+		
+	}
+	
+	#congressman3 img {
+		float: left;
+		padding: 3%;
+		width: 40%;
+	}
+	
+	#congressman3 h1 {
+		margin: 0 3% 0 3%;
+		padding: 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman3 h2 {
+		clear: left;
+		padding: 1% 0 0 3%;
+	}
+	#congressman3 h3 {
+		clear: left;
+		padding: 1% 0 0 3%;
+	}
+	#congressman3 h4 {
+		padding: 70% 2% 0 3%;
+		color: white;
+	}
+
+	#congressman3 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 43%;
+		text-align: center;
+		clear: both;
+		margin: 5% 10% 0 0;
+		float: right;
+	}
+	#revealmore p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 43%;
+		text-align: center;
+		clear: both;
+		margin: 5% 10% 0 2%;
+	}
+	footer {
+		clear: both;
+	}
+	footer nav {
+	margin: 0 auto;
+	width: 90%;
+	font: .7em/1.5 'quicksandbold',sans-serif;
+}
+	
+	
+}
+
+@media only screen and (min-width: 321px) and (max-width: 800px){
+	h1 {
+	font: normal 1.25em/1.5 'superclarendon',serif;
+	color: white;
+	font-weight: 300;
+}
+	
+	h2 {
+	font: normal 1em/1.5 'quicksandregular', sans-serif;
+	color: white;
+}
+	h3 {
+	font: normal .75em/1.5 'quicksandregular', sans-serif;
+	color: white;
+}
+
+	h4 {
+	font: normal .5em/1.5 'quicksandregular', sans-serif;
+	color: white;
+}
+	
+	.bills {
+	background-color: rgb(208, 211, 212);
+}
+	
+	#topnav {
+		width: 100%;
+		padding: 1% 0 0 0;
+	}
+	#topnav img {
+		float: right;
+		width: 4%;
+		padding: 1% 3% 0 0;
+	}
+	#topnav p {
+		width: 50%;
+		padding: 0 0 0 5%;
+		margin: 0;
+		display: inline;
+		font: normal 1.5em/1.5 'superclarendon',serif;
+	}
+	#congressman {
+		background: rgb(0, 109, 183) url(../images/new/nelson-info.png) no-repeat right +15% bottom +60%/50%;
+	}
+	
+	#congressman img {
+		float: left;
+		padding: 3% 0 0 10%;
+		width: 20%;
+	}
+	
+	#congressman h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman h2 {
+		clear: left;
+		padding: 2% 0 0 10%;
+		
+	}
+	#congressman h3 {
+		clear: left;
+		padding:  0 0 3% 10%;
+		
+	}
+	#congressman h4 {
+		clear:both;
+		padding: 5% 5% 0 60%;
+		white;
+	}
+	#congressman p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 22%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 10% 0;
+		float: right;
+		
+	}
+	
+	.clear {
+		clear: both;
+	}
+	#bills {
+		clear: both;
+		background-color: rgb(65, 64, 66);
+	}
+	#bills h1 {
+		margin: 0 3% 0 3%;
+		padding: 10% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#bills h2 {
+		padding: 0 0 0 0;
+		margin: 0;
+	}
+	#bills h3 {
+		width: 70%;
+		float: left;
+	}
+	.single-bills h4 {
+		color: rgb(208, 211, 212);
+		
+	}
+
+	#bills img {
+		float: left;
+		width: 20%;
+		padding: 0 3% 0 2%;
+		margin: 0 0 10% 0;
+	}
+	
+	.single-bills {
+		float: left;
+		width: 95%;
+		padding: 5% 0 0 2%;
+		background-color: rgb(65, 64, 66);
+	}
+	.single-bills p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 22%;
+		text-align: center;
+		clear: both;
+		margin: 0 10% 5% 0;
+		float: right;
+	}
+	#news {
+		clear: both;
+		background-color: #dddddd;
+	}
+	#news h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;	
+	}
+	#news h3 {
+		text-align: center;
+	}
+	.single-story {
+		width: 60%;
+		
+		padding: 0 3% 0 3%;
+		margin: 0 auto;
+	}
+	.single-story:last-of-type {
+		width: 60%;
+		float: left;
+		padding: 0 3% 5% 3%;
+		border-right: none;
+	}
+	.single-story h2 {
+		text-align: center;
+		width: 100%;
+	
+	}
+	.single-story h4 {
+		text-align: center;
+		width: 100%;
+	}
+	.single-story img {
+		width: 27%;
+		margin: 0 auto;
+		padding: 0 0 0 40%;
+		
+	}
+	.single-story p {
+		text-align: center;
+	}
+	#app {
+		background-color: white;	
+	}
+	#app h1 {
+		padding: 5% 0 0 0;
+		color: black;
+		border-bottom: 1pt solid black;
+	}
+	#app img {
+		padding: 5% 0 0 15%;
+		width: 70%;
+	}
+	#app img:last-of-type {
+		float: left;
+		padding: 0 10% 0 35%;
+		width: 30%;
+	}
+	#app p {
+		
+		width: 50%;
+		padding: 5% 0 0 22%;
+		color: black;	
+	}
+	#all-bills {
+		background-color: rgb(208, 211, 212);
+	}
+	#all-bills h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#bills1 {
+		width: 50%;
+		float: left;
+		padding: 5% 0 0 0%;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills1 h2 {
+		text-align: center;
+		font-size: 1.25em;
+	}
+	#bills1 img {
+		padding: 0 0 3% 25%;
+		width: 50%;
+	}
+	#bills2 {
+		width: 50%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills2 h2 {
+		text-align: center;
+		font-size: 1.25em;
+	}
+	#bills2 img {
+		padding: 4% 0 7% 34%;
+		width: 50%;
+	}
+	#bills3 {
+		width: 50%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);
+		clear: both;	
+	}
+	#bills3 h2 {
+		text-align: center;
+		font-size: 1.25em;
+		
+	}
+	#bills3 img {
+		padding: 0 0 3% 30%;
+		width: 40%;
+	}
+	#bills4 {
+		width: 50%;
+		float: right;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills4 h2 {
+		text-align: center;
+		font-size: 1.25em;
+	}
+	#bills4 img {
+		padding: 0 0 5% 27%;
+		width: 40%;
+	}
+	#bills5 {
+		width: 50%;
+		float: left;
+		clear: both;
+		padding: 0 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills5 h2 {
+		text-align: center;
+		font-size: 1.25em;
+	}
+	#bills5 img {
+		padding: 10% 0 9% 30%;
+		width: 50%;
+	}
+	#bills6 {
+		width: 50%;
+		float: left;
+		padding: 0 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills6 h2 {
+		text-align: center;
+		font-size: 1.25em;
+	}
+	#bills6 img {
+		padding: 10% 0 2% 20%;
+		width: 40%;
+	}
+	#bills7 {
+		width: 50%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);
+		clear: both;	
+	}
+	#bills7 h2 {
+		text-align: center;
+		font-size: 1.25em;
+	}
+	#bills7 img {
+		padding: 0 0 6% 37%;
+		width: 50%;
+	}
+	#bills8 {
+		width: 50%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills8 h2 {
+		text-align: center;
+		color: white;
+		font-size: 1.25em;
+	}
+	#bills8 img {
+		padding: 0 0 1% 25%;
+		width: 50%;
+	}
+	form {
+		width: 80%;
+		margin: 0;
+		padding: 4% 10% 5% 10%;
+		float: left;
+		background-color: #dddddd;	
+		
+	}
+	
+	#keyword {
+		padding: 2% 10% 2% 2%;
+		width: 50%;
+	}
+	form:last-of-type {
+		width: 80%;
+		margin: 0;
+		padding: 4% 10% 1% 10%;
+		float: left;
+	}
+	#email, #password {
+		padding: 2% 10% 2% 2%;
+		width: 50%;
+	}
+	input[type="submit"] {
+		padding: 2% 5%;
+	}
+	#small-app {
+		width: 100%;
+		background: rgb(208, 211, 212) url(../images/congress-app-screen.png) no-repeat bottom left/60%;
+		float: right;
+	}
+	#small-app h2 {
+		margin: 0 0 10% 5%;
+		padding: 5% 0 0 0%;
+		border-bottom: 1pt solid white;	
+		color: white;
+	}
+	#small-app img:first-of-type {
+		float: left;
+		padding: 10% 0 0 5%;
+		width: 60%;
+		clear: both;
+	}
+	#small-app img:last-of-type {
+		float: right;
+		padding: 0 10% 10% 3%;
+		width: 35%;
+	}
+	#small-app p {
+		float: right;
+		width: 50%;
+		padding: 5% 5% 0 40%;
+		color: white;	
+	}
+	#small-app2 {
+		width: 100%;
+		background: rgb(208, 211, 212) url(../images/bill-app-screen.png) no-repeat bottom left/55%;
+		float: right;
+	}
+	#small-app2 h2 {
+		margin: 0 0 10% 5%;
+		padding: 5% 0 0 0%;
+		border-bottom: 1pt solid white;	
+		color: white;
+	}
+	#small-app2 img:first-of-type {
+		float: left;
+		padding: 10% 0 0 5%;
+		width: 60%;
+		clear: both;
+	}
+	#small-app2 img:last-of-type {
+		float: right;
+		padding: 0 10% 10% 3%;
+		width: 35%;
+	}
+	#small-app2 p {
+		float: right;
+		width: 50%;
+		padding: 5% 5% 0 40%;
+		color: white;	
+	}
+	#congressman1 {
+		background: rgb(0, 109, 183) url(../images/new/nelson-info.png) no-repeat right +15% bottom +60%/50%;
+		padding: 0 0 5% 0;
+		
+	}
+	
+	#congressman1 img {
+		float: left;
+		padding: 3% 0 0 10%;
+		width: 20%;
+	}
+
+	#congressman1 h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman1 h2 {
+		clear: left;
+		padding: 5% 0 0 10%;
+	}
+	#congressman1 h3 {
+		clear: left;
+		padding: 0 0 0 10%;
+		color: white;	
+	}
+	#congressman1 h4 {
+		clear: both;
+		padding: 5% 0 0 60%;
+		color: white;
+	}
+	#congressman1 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 22%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 0 0;
+		float: right;
+		
+	}
+	#congressman2 {
+		background: rgb(204, 6, 0) url(../images/new/isakson-info.png) no-repeat right bottom+70%/50%;
+		padding: 0 0 5% 0;
+		
+	}
+	
+	#congressman2 img {
+		float: left;
+		padding: 3% 0 0 10%;
+		width: 20%;
+	}
+
+	#congressman2 h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman2 h2 {
+		padding: 3% 0 0 10%;
+		clear: left;	
+	}
+	#congressman2 h3 {
+		padding: 1% 0 0 10%;
+		clear: left;	
+	}
+	#congressman2 h4 {
+		padding: 15% 0 0 60%;
+		color: white;
+	}
+	#congressman2 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 22%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 0 0;
+		float: right;
+		
+	}
+	#congressman3 {
+		background: rgb(65, 64, 66) url(../images/new/king-info.png) no-repeat right+20% bottom+70%/35%;
+		padding: 0 0 5% 0;
+		
+	}
+	
+	#congressman3 img {
+		float: left;
+		padding: 3% 0 0 10%;
+		width: 20%;
+	}
+
+	#congressman3 h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman3 h2 {
+		clear: left;
+		padding: 1% 0 0 10%;
+	}
+	#congressman3 h3 {
+		clear: left;
+		padding: 1% 0 0 10%;
+	}
+	#congressman3 h4 {
+		padding: 12% 0 0 60%;
+		color: white;
+	}
+	#congressman3 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 22%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 0 0;
+		float: right;
+		
+	}
+	#revealmore {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 15%;
+		text-align: center;
+		clear: both;
+		margin: 5% 10% 0 2%;
+	}
+	
+	footer {
+		clear: both;
+	}
+	footer nav {
+	text-align: center;
+	width: 100%;
+	font: .7em/1.5 'quicksandbold',sans-serif;
+	clear: both;
+}
+	
+}
+
+@media only screen and (min-width: 801px){
+	.bills {
+	background-color: rgb(208, 211, 212);
+}
+	
+	#topnav {
+		width: 100%;
+		padding: 1% 0 0 0;
+	}
+	#topnav img {
+		float: right;
+		width: 3%;
+		padding: 1% 3% 0 0;
+	}
+	#topnav p {
+		width: 50%;
+		padding: 0 0 0 5%;
+		margin: 0;
+		display: inline;
+		font: normal 2em/1.5 'superclarendon',serif;
+	}
+	nav {
+		clear: both;
+	}
+	#congressman {
+		background: rgb(0, 109, 183) url(../images/new/nelson-info.png) no-repeat right +30% bottom +30%/40%;
+	}
+	
+	#congressman img {
+		float: left;
+		padding: 3% 3% 10% 3%;
+		width: 20%;
+	}
+	
+	#congressman h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman h2 {
+		padding: 1% 60% 0 0;
+		
+	}
+	#congressman h3 {
+		padding: 1% ;
+		
+	}
+	#congressman h4 {
+		float: right;
+		width: 20%;
+		padding: 10% 4% 0 0;
+		color: white;
+		
+	}
+	#congressman p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 15%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 5% 0;
+		
+		float: right;
+		
+	}
+	.clear {
+		clear: both;
+	}
+	#bills {
+		clear: both;
+		background-color: rgb(65, 64, 66);
+	}
+	#bills h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#bills h2 {
+		padding: 0 0 0 0;
+		margin: 0;
+	}
+	#bills h3 {
+		width: 70%;
+		float: left;
+	}
+	.single-bills h4 {
+		color: rgb(208, 211, 212)
+	}
+
+	#bills img:first-of-type {
+		float: left;
+		width: 20%;
+		padding: 0 3% 0 2%;
+		margin: 0 0 10% 0;
+	}
+	
+	.single-bills {
+		float: left;
+		width: 45%;
+		padding: 5% 0 5% 2%;
+	}
+	.single-bills:first-of-type {
+		border-right: 1pt solid white;
+		padding: 0;
+		margin: 5% 0 0 5%;
+	}
+	.single-bills p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 33%;
+		text-align: center;
+		clear: both;
+		margin: 0 10% 0 0;
+		float: right;
+	}
+	#news {
+		clear: both;
+		background-color: #dddddd;
+	}
+	#news h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;	
+	}
+	#news h3 {
+		text-align: center;
+	}
+	.single-story {
+		width: 27%;
+		float: left;
+		padding: 0 3% 0 3%;
+		border-right: 1pt solid white;
+		margin: 3% 0 5% 0;
+	}
+	.single-story:last-of-type {
+		width: 27%;
+		float: left;
+		padding: 0 3% 5% 3%;
+		
+	}
+	.single-story h2 {
+		text-align: center;
+	}
+	.single-story img {
+		width: 27%;
+		margin: 0 auto;
+		padding: 0 0 0 35%;
+	}
+	#app {
+		background-color: white;	
+	}
+	#app h1 {
+		padding: 5% 0 0 0;
+		color: black;
+		border-bottom: 1pt solid black;
+	}
+	#app img:first-of-type {
+		float: left;
+		padding: 5% 0 5% 10%;
+		width: 40%;
+	}
+	#app img:last-of-type {
+		float: left;
+		padding: 0 10% 0 3%;
+		width: 20%;
+	}
+	#app p {
+		float: left;
+		width: 30%;
+		padding: 10% 0 0 0;
+		color: black;	
+	}
+	#all-bills {
+		background-color: rgb(208, 211, 212);
+	}
+	#all-bills h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#bills1 {
+		width: 25%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills1 h2 {
+		text-align: center;
+	}
+	#bills1 img {
+		padding: 0 0 3% 20%;
+		width: 50%;
+	}
+	#bills2 {
+		width: 25%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills2 h2 {
+		text-align: center;
+	}
+	#bills2 img {
+		padding: 4% 0 7% 20%;
+		width: 50%;
+	}
+	#bills3 {
+		width: 25%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills3 h2 {
+		text-align: center;
+	}
+	#bills3 img {
+		padding: 0 0 3% 25%;
+		width: 50%;
+	}
+	#bills4 {
+		width: 25%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills4 h2 {
+		text-align: center;
+	}
+	#bills4 img {
+		padding: 0 0 6% 27%;
+		width: 50%;
+	}
+	#bills5 {
+		width: 25%;
+		float: left;
+		clear: both;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills5 h2 {
+		text-align: center;
+	}
+	#bills5 img {
+		padding: 0 0 9% 30%;
+		width: 50%
+	}
+	#bills6 {
+		width: 25%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills6 h2 {
+		text-align: center;
+	}
+	#bills6 img {
+		padding: 0 0 2% 30%;
+		width: 40%;
+	}
+	#bills7 {
+		width: 25%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills7 h2 {
+		text-align: center;
+	}
+	#bills7 img {
+		padding: 0 0 5% 28%;
+		width: 50%;
+	}
+	#bills8 {
+		width: 25%;
+		float: left;
+		padding: 5% 0 0 0;
+		background-color: rgb(208, 211, 212);	
+	}
+	#bills8 h2 {
+		text-align: center;
+	}
+	#bills8 img {
+		padding: 0 0 1% 25%;
+		width: 50%;
+	}
+	form {
+		width: 45%;
+		margin: 0;
+		padding: 4% 0 0 5%;
+		float: left;
+		background-color: #dddddd;	
+	}
+	
+	#keyword {
+		padding: 2% 10% 2% 2%;
+		width: 50%;
+	}
+	form:last-of-type {
+		width: 45%;
+		margin: 0;
+		padding: 2% 0 2% 5%;
+		float: left;
+	}
+	#email, #password {
+		padding: 2% 10% 2% 2%;
+		width: 50%;
+	}
+	input[type="submit"] {
+		padding: 2% 5%;
+	}
+	#small-app {
+		width: 50%;
+		background: #dddddd url(../images/congress-app-screen.png) no-repeat bottom left/80%;	
+		float: right;
+	}
+	#small-app h2 {
+		margin: 0 0 0 5%;
+		padding: 8% 0 0 0%;
+		border-bottom: 1pt solid white;	
+		color: black;
+	}
+	#small-app img:first-of-type {
+		float: left;
+		padding: 10% 0 0 5%;
+		width: 55%;
+		clear: both;
+	}
+	#small-app img:last-of-type {
+		float: right;
+		padding: 0 5% 20% 3%;
+		width: 30%;
+	}
+	#small-app p {
+		float: right;
+		width: 40%;
+		padding: 5% 0 0 0;
+		color: black;	
+	}
+	#small-app2 {
+		width: 50%;
+		background: #dddddd url(../images/bill-app-screen.png) no-repeat bottom left/75%;	
+		float: right;
+	}
+	#small-app2 h2 {
+		margin: 0 0 0 5%;
+		padding: 8% 0 0 0%;
+		border-bottom: 1pt solid white;	
+		color: black;
+	}
+	#small-app2 img:first-of-type {
+		float: left;
+		padding: 10% 0 0 5%;
+		width: 55%;
+		clear: both;
+	}
+	#small-app2 img:last-of-type {
+		float: right;
+		padding: 0 5% 20% 3%;
+		width: 30%;
+	}
+	#small-app2 p {
+		float: right;
+		width: 45%;
+		padding: 25% 0 0 0;
+		color: black;	
+	}
+	#bottom {
+		background-color: #dddddd;
+	}
+	#congressman1 {
+		background: rgb(0, 109, 183) url(../images/new/nelson-info.png) no-repeat right +30% bottom +30%/40%;
+		padding: 0 0 5% 0;
+		margin: 0;
+		float: left;
+		width: 100%;
+		
+	}
+	
+	#congressman1 img {
+		float: left;
+		padding: 3% 3% 10% 3%;
+		width: 20%;
+	}
+	
+	#congressman1 h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman1 h2 {
+		padding: 1% 60% 0 0;
+		
+	}
+	#congressman1 h3 {
+		padding: 1% ;
+		color: white;
+		
+	}
+	#congressman1 h4 {
+		float: right;
+		width: 20%;
+		padding: 10% 4% 0 0;
+		color: white;
+		
+	}
+	#congressman1 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 15%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 0 0;
+		float: right;
+		
+	}
+		#congressman2 {
+		background: rgb(204, 6, 0) url(../images/new/isakson-info.png) no-repeat right+25% bottom+30%/35%;
+		padding: 0 0 0 0;
+		margin: 0;
+		float: left;
+		width: 100%;
+		
+	}
+	
+	#congressman2 img {
+		float: left;
+		padding: 3% 3% 10% 3%;
+		width: 20%;
+	}
+
+	#congressman2 h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman2 h2 {
+		padding: 3% 30% 0 0;
+		width: 50%;
+		color: white;
+	}
+	#congressman2 h3 {
+		padding: 1% ;
+		color: white;
+		
+	}
+	#congressman2 h4 {
+		float: right;
+		width: 20%;
+		padding: 10% 4% 0 0;
+		color: white;
+		
+	}
+	#congressman2 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 15%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 5% 0;
+		float: right;
+		
+	}
+		#congressman3 {
+		background: rgb(65, 64, 66) url(../images/new/king-info.png) no-repeat right+33% bottom +30%/25%;
+		padding: 0 0 5% 0;
+		float: left;
+		margin: 0 0 5% 0;
+		width: 100%;
+		padding: 0 0 5% 0;
+		
+	}
+	
+	#congressman3 img {
+		float: left;
+		padding: 3% 3% 10% 3%;
+		width: 20%;
+	}
+	
+	#congressman3 h1 {
+		margin: 0 3% 0 3%;
+		padding: 5% 0 0 0;
+		border-bottom: 1pt solid white;
+	}
+	#congressman3 h2 {
+		padding: 3% 30% 0 0;
+		width: 50%;
+		
+	}
+	#congressman3 h3 {
+		padding: 1% ;
+		
+	}
+	#congressman3 h4 {
+		float: right;
+		width: 20%;
+		padding: 10% 4% 0 0;
+		color: white;
+		
+	}
+	#congressman3 p {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 15%;
+		text-align: center;
+		clear: both;
+		margin: 0 7% 0 0;
+		float: right;
+		
+	}
+	#revealmore {
+		border: 1px solid white;
+		border-radius: 5px;
+		width: 12%;
+		text-align: center;
+		clear: both;
+		margin: 5% 10% 0 2%;
+		
+		
+	}
+	footer {
+		clear: both;
+	}
+	footer nav {
+	text-align: center;
+	width: 100%;
+	
+	font: .7em/1.5 'quicksandbold',sans-serif;
+}
+}
